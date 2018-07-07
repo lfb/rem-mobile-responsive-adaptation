@@ -13,5 +13,8 @@
     "node-sass": "^4.9.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0"
+  },
+  "dependencies": {
+    "install": "^0.12.1"
   }
 }

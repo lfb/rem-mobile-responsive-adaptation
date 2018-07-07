@@ -10,13 +10,13 @@ html, body, ul, li, p {
 
 html {
   background-color: #f8f8f8;
+  transition: 0.28s linear;
 }
 
 body {
-  max-width: 540px;
-  min-width: 320px;
   margin: 0 auto;
   background-color: #fff;
+  transition: 0.28s linear;
 }
 
 li {
