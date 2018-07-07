@@ -7,24 +7,24 @@ rem移动端响应式适配
 ### 按照设计稿750px标准，1rem分为75px计算
 
 ```scss
-@function px2rem ($px) {
+@function rem ($px) {
   $rem: 75px;
   @return ($px / $rem) + rem;
 }
 
 .header {
-  height: px2rem(80px);
-  width: px2rem(750px);
+  height: rem(80px);
+  width: rem(750px);
   background-color: red;
   .header-item {
     float: left;
     color: #ffcdce;
-    line-height: px2rem(80px);
-    font-size: px2rem(32px);
-    margin: 0 px2rem(24px);
+    line-height: rem(80px);
+    font-size: rem(32px);
+    margin: 0 rem(24px);
     &-active {
       color: #fff;
-      font-size: px2rem(34px);
+      font-size: rem(34px);
     }
   }
 }
