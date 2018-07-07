@@ -21,7 +21,7 @@ rem移动端响应式适配
     color: #ffcdce;
     line-height: rem(80px);
     font-size: rem(32px);
-    margin: 0 rem(24px);
+    margin: 0 rem(30px);
     &-active {
       color: #fff;
       font-size: rem(34px);
