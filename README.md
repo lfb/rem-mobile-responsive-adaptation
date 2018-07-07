@@ -1,7 +1,7 @@
 # rem-mobile-responsive-adaptation
 rem移动端响应式适配
 
-![image](./rem.png)
+![image](./images/rem.png)
 
 
 ### 按照设计稿750px标准，1rem分为75px计算
@@ -50,4 +50,4 @@ window.addEventListener('resize', (e) => {
 
 ### iPhone示例，屏宽度为375px，那么计算html的font-size为37.5px。
 
-![image](./rem-2.png)
+![image](./images/rem-2.png)
