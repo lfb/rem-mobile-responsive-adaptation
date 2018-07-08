@@ -51,3 +51,9 @@ window.addEventListener('resize', (e) => {
 ### iPhone6示例，屏宽度为375px，那么计算html的font-size为37.5px。
 
 ![image](./images/rem-2.png)
+
+
+### 本项目测试方式
+
+- git clone下载下来，可以直接点击index.html，在浏览器查看效果（测试）
+- 修改可以进行webpack打包，再测试。
